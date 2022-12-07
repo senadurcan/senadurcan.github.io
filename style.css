@@ -110,6 +110,23 @@ span{
     width: 900px;
     color: white;
   }
+
+ /*ABOUT*/
+
+  .about-image {
+    border-radius: var(--border-radius-medium);
+  }
+  
+  .about-thumb {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .about-text{
+    color:rgb(99, 98, 98);
+    
+  }
+  
   /*PORTFOLİO CARDS*/
   .portfolio{
     display: flex;
@@ -196,6 +213,17 @@ span{
 .contact-form {
   margin-left: 10px;
 }
+.contact-info {
+  border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
+  padding: 40px 30px;
+  display: flex;
+}
+
+.contact-info-border-start {
+  border-right: 0;
+  border-bottom: 1px solid var(--border-color);
+  border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+}
 
 
 
@@ -241,18 +269,9 @@ span{
 
 
 
-.contact-info {
-  border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
-  padding: 40px 30px;
-  display: flex;
-}
-
-.contact-info-border-start {
-  border-right: 0;
-  border-bottom: 1px solid var(--border-color);
-  border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
-}
-
+/*---------------------------------------
+  FOOTER               
+-----------------------------------------*/
 
 
 .footer-menu {
@@ -324,22 +343,3 @@ span{
   background: var(--white-color);
 }
 
-.about-image {
-  border-radius: var(--border-radius-medium);
-}
-
-.about-thumb {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.about-text{
-  color:rgb(99, 98, 98);
-  
-}
-@media screen and (max-width){
-    header{
-
-    }
-  
-}
